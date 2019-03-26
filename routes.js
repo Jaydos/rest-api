@@ -58,7 +58,7 @@ router.get('/', (req, res) => {
   res.send("Welcome to the rest-api");
 })
 
-// TEMPORARY - DELETE LATER
+// FOR DEV USE
 /* router.get('/api/users/all', (req, res) => {
   User.find({})
     .exec(function(err, users){
@@ -80,7 +80,6 @@ router.get('/api/users/:lastname', (req, res, next) => {
       }
     })
 })
-
 router.delete('/api/users/:lastname', (req, res, next) => {
   User.find({lastName: req.params.lastname})
     .remove(function(err){
@@ -91,10 +90,8 @@ router.delete('/api/users/:lastname', (req, res, next) => {
       res.location('/');
       }
     })
-})
-
- */
-// TEMPORARY END
+}) */
+// END
 
 
 // GET /api/users
