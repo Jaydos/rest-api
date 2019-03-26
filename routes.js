@@ -80,7 +80,8 @@ router.get('/api/users/:lastname', (req, res, next) => {
       }
     })
 })
-router.delete('/api/users/:lastname', (req, res, next) => {
+
+ router.delete('/api/users/:lastname', (req, res, next) => {
   User.find({lastName: req.params.lastname})
     .remove(function(err){
       if(err){
@@ -90,7 +91,7 @@ router.delete('/api/users/:lastname', (req, res, next) => {
       res.location('/');
       }
     })
-}) */
+})  */
 // END
 
 
