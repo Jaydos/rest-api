@@ -1,6 +1,9 @@
 
 # Full Stack JavaScript Techdegree v2 - REST API Project
 
+Project 9 of the TeamTreehouse Full Stack JavaScript Tech Degree.
+
+Use the popular Express web application framework and a SQL database to create a REST API that lets users create, list, update, and delete items from a school database. 
 
 ## Getting Started
 
